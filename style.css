@@ -31,3 +31,113 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu ul {
+	display: flex;
+	gap: 30px;
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+
+/*
+.menu {
+	padding: 20px;
+}
+*/
+.menu a {
+	text-decoration: none;
+	color: #25133d;
+}
+
+
+
+.menu li {
+	padding: 20px;
+}
+
+.menu a:hover {
+	color: #FFFFFF;
+}
+
+.menu li:hover {
+	color: #FFFFFF;
+	background-color: #48418e;
+}
+
+#superappka:hover {
+	background-color: #FFFFFF;
+	color: #25133d;
+}
+
+.banner {
+	background-image: url(images/pozadi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 450px;
+	position: relative;
+}
+
+.banner h1 {
+	font-size: 90px;
+	font-weight: 400;
+	color: #FFFFFF;
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+.banner p {
+	font-size: 36px;
+	font-weight: 300;
+	color: #FFFFFF;
+	margin-left: 20px;
+}
+
+.banner img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.buttons {
+	display: flex;
+	gap: 20px;
+	margin-left: 20px;
+}
+
+.buttons a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px;
+	border: 1px solid #FFFFFF;	
+	border-radius: 5px;
+}
+
+.buttons a:hover {
+	background-color: #48418e;
+}
+
+.content h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #25133d;
+}
+
+.content img {
+	width: 100px;
+}
+
+.content {
+	display: flex;
+	text-align: center;
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+	background-color: #48418e;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
